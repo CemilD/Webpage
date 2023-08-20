@@ -1,0 +1,35 @@
+
+    body{
+        background-color:#dff0f0;
+    }
+    hr{
+        border-style: none;
+        border-top-style: dotted;
+        border-color: rgb(1, 44, 44);
+        border-width: 5px;
+        width: 3%;
+    }
+
+    h1{
+        color: blueviolet;
+    }
+    h3{
+        color: coral;
+    }
+
+    img:hover{
+        background-color: black;
+    }
+     
+/* class css */
+.salat {
+    background-color: chartreuse;
+}
+.green{
+    border-radius:32%;
+
+}
+/* id css */
+#headtext{
+    color: black;
+}
