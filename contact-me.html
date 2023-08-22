@@ -12,21 +12,35 @@
     <center><a href="./index.html"><h3>Back to home</h3></a></center> 
     <hr id="contactmeline">
 <!-- Container for Maildata -->
-    <div class="datainfo">
+        <div class="datainfo">
         <br>
+        <center>
+        <div class="sendbutt">
         <label for="">Your Name:</label>
-        <input type="text" name="Name:" value=""><br><br>
+        <input type="text" name="Name:" value="">
+        <br>
+        <br>
         <label for="">Your Mail:</label>
-        <input type="email" name="Mail:"> <br><br>
-        <label for="Your massage"></label><br>
-        <textarea name="Text" id="" cols="30" rows="10">Write your massage here</textarea><br>
-        <input type="submit" name="Message" id=""><br><br>
-        
+        <input type="email" name="Mail:">
+        <br>
+        <br>
+        </div>
+        <label for="Your massage"></label>
+        <br>
+        <textarea name="Text" cols="100" rows="10">Write your massage here</textarea><br>
+        <form action="mailto:cemil.demirezen@outlook.com" method="post" enctype="text/plain">
+            <div class="sendbutt1">
+            <input type="submit" name="Mail">
+            <br>
+            <br>
+            </div>
+        </form>
+        </center>
     </div>
+
 <!-- Container for Maps -->
         <hr id="contactmeline">
         <iframe class="centerposition" width="320" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=95176%20Konradsreuth&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="5" marginwidth="0">
         </iframe>
-    </form>
 </body>
 </html>

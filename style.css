@@ -1,3 +1,5 @@
+/* CemilD#######################-For all Pages-########################21.08.23*/
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -18,18 +20,50 @@ table, th, td {
     margin-left: auto;
     margin-right: auto;
   }
+/* CemilD#######################-Contact-me.html-########################21.08.23*/
+/* Mail input */
+input{
+  background-color: transparent;
+  border: 0.5px solid;
+  height: 20px;
+  width: 160px;
+  color: #CCC;
+}
 
-  .datainfo{
-    border-style: groove;
-    border-width: 2px;
-    margin-left: 40%;
-    margin-right: 40%;
-  }
+textarea{
+  background-color: transparent;
+  border: 0.5px solid;
+  color: #CCC;
+}
+
+.datainfo{
+  border-color: transparent;
+  border: 0px solid;
+  width:100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.sendbutt{
+  margin-right: 32rem;
+}
+
+.sendbutt1{
+  margin-right: 37rem;
+}
+
+/* CemilD#######################-My Page.html-########################21.08.23*/
+
+.name{
+  font-size: 1rem;
+  font-family: serif;
+  font-style: italic;
+  margin-left: 2rem;
+}
 .text{
   padding: 10px;
   width: 40%;
+  margin-top: -20rem;
+  margin-left: 25rem;
 }
 
-.myprofile{
 
-}
